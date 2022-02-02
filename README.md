@@ -54,6 +54,7 @@ This mobile application is based on technologies like below:
 * Swift
 * Alamofire
 * SwiftyJSON
+* Core Data
 * RealmSwift
 * ShimmerSwift
 
