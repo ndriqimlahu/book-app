@@ -1,14 +1,14 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/portfolio/BookApp.png" alt="Logo" width="250" height="250">
+  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/BookApp.png" alt="Logo" width="250" height="250">
   <h3 align="center">Book App</h3>
   <p align="center">
     Ndriçim Lahu
     <br>
     <br>
-    <a href="https://github.com/ndriqimlahu/BookApp/issues">Report Bug</a>
+    <a href="https://github.com/ndriqimlahu/book-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ndriqimlahu/BookApp/issues">Request Feature</a>
+    <a href="https://github.com/ndriqimlahu/book-app/issues">Request Feature</a>
   </p>
 </p>
 
@@ -74,7 +74,7 @@ In order to open this mobile application is required to have an Operating System
 
 1. Download the code or Clone the repo:
    ```terminal
-   git clone https://github.com/ndriqimlahu/BookApp.git
+   git clone https://github.com/ndriqimlahu/book-app.git
    ```
 2. Open the Terminal and type the below command to check if your macOS have it installed the CocoaPods (dependency manager):
    ```terminal
@@ -108,14 +108,6 @@ There you can see some useful additional screenshots of how the project looks li
 ## License
 
 Distributed under the Apache License 2.0. See `LICENSE` for more information.
-
-
-<!-- CONTACT -->
-## Contact
-
-**LinkedIn:** https://www.linkedin.com/in/ndriçimlahu
-
-**Mail:** ndriqim_lahu@hotmail.com
 
 
 <!-- SUPPORT -->
