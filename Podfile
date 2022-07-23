@@ -8,6 +8,6 @@ target 'Book App' do
   # Pods for Book App
 	pod 'Alamofire'
 	pod 'SwiftyJSON'
-	pod 'RealmSwift'
+	pod 'RealmSwift', '10.25.2'
 	pod 'ShimmerSwift'
 end
