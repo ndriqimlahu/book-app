@@ -101,7 +101,7 @@ In order to open this mobile application is required to have an Operating System
    ```
 8. In the Terminal type the following command to change the base directory to project directory by drag and drop the project folder to the Terminal:
    ```terminal
-   cd "project directory"
+   cd /Users/user/Desktop/book-app
    ```
 9. Now in the Terminal type the following command to install all the necessary Frameworks and Libraries which are used in this Application:
    ```terminal
