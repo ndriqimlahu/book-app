@@ -75,24 +75,40 @@ In order to open this mobile application is required to have an Operating System
    ```terminal
    git clone https://github.com/ndriqimlahu/book-app.git
    ```
-2. Open the Terminal and type the below command to check if your macOS have it installed the CocoaPods (dependency manager):
+2. Open the Terminal and type the following command to check the version of Ruby installed on your macOS:
+   ```terminal
+   ruby -v
+   ```
+3. In the Terminal type the following command to install the Ruby Version Manager (rvm):
+   ```terminal
+   curl -L https://get.rvm.io | bash -s stable
+   ```
+4. Quit and open again the Terminal then type the following command to install the latest version of Ruby:
+   ```terminal
+   rvm install ruby --latest
+   ```
+5. Open the Terminal and type the following command to check the version of CocoaPods (dependency manager) installed on your macOS:
    ```terminal
    pod --version
    ```
-3. If not then in Terminal, type the below command to install the CocoaPods (dependency manager):
+6. In the Terminal type the following command to install the latest version of CocoaPods:
    ```terminal
    sudo gem install cocoapods
    ```
-4. In the Terminal, type the below command to change the base directory to project directory by drag and drop the project folder:
+7. Now in the Terminal type the following command to setup the CocoaPods on your macOS:
    ```terminal
-   cd "the project directory"
+   pod setup
    ```
-5. Now in the Terminal, type the below command to install all the necessary Frameworks and Libraries which are used in this application:
+8. In the Terminal type the following command to change the base directory to project directory by drag and drop the project folder to the Terminal:
+   ```terminal
+   cd "project directory"
+   ```
+9. Now in the Terminal type the following command to install all the necessary Frameworks and Libraries which are used in this Application:
    ```terminal
    pod install
    ```
-6. Now open the repo folder and choose the Workspace `Book App.xcworkspace` file to open with XCode.
-7. After that you can run and explore this mobile application with simulator by choosing the `iPhone 11 (13.5)` device.
+10. Now open the repo folder and choose the Workspace `Book App.xcworkspace` file to open with Xcode.
+11. After that you can run and explore this mobile application with simulator by choosing the `iPhone 11 (13.5)` device.
 
 
 <!-- USAGE -->
