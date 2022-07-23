@@ -66,7 +66,7 @@ By getting started with the project, first you need to take a look at the requir
 
 ### Prerequisites
 
-In order to open this mobile application is required to have an Operating System (macOS), an Tool (Command Line Tools for Xcode 12.4) and an IDE (Xcode 12.4).
+In order to open this mobile application is required to have an Operating System (macOS Catalina 10.15.7), an Tool (Command Line Tools for Xcode 12.4) and an IDE (Xcode 12.4).
 
 
 ### Installation
