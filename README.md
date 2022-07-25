@@ -116,93 +116,28 @@ In order to open this mobile application is required to have an Operating System
 
 There you can see some useful additional screenshots of how the project looks like and how can be used.
 
-* Log In page
-
-![01-Log In page](https://user-images.githubusercontent.com/72756158/180626950-81fd1ef0-aada-4d4c-8d5a-fa006c83b5ef.png)
-
-* Sign Up page
-
-![02-Sign Up page](https://user-images.githubusercontent.com/72756158/180626949-85d4ddcd-5438-49f4-8264-bda8c2259730.png)
-
-* Book Main page (Welcome)
-
-![03-Book Main page (Welcome)](https://user-images.githubusercontent.com/72756158/180626966-0862d6dd-811f-4d3d-856c-0a8c9607587e.png)
-
-* Book Details page
-
-![04-Book Details page](https://user-images.githubusercontent.com/72756158/180626980-b38d4ed8-65b9-4e20-a26d-0709be0ac22b.png)
-
-* Book Subscription page
-
-![05 1-Book Subscription page](https://user-images.githubusercontent.com/72756158/180626984-60a6cbb6-f25e-4756-b669-d1255c628e7d.png)
-
-* Book Subscription page (Type of Contact)
-
-![05 2-Book Subscription page (Type of Contact)](https://user-images.githubusercontent.com/72756158/180626992-30f2968e-c4ba-42ec-8a0d-a0099b94f3b9.png)
-
-* Book Contact page (Select One)
-
-![06 1-Book Contact page (Select One)](https://user-images.githubusercontent.com/72756158/180627001-5850a0c1-bd5f-4c71-92c6-76ab4d29c926.png)
-
-* Book Contact page (Facebook)
-
-![06 2-Book Contact page (Facebook)](https://user-images.githubusercontent.com/72756158/180627011-88b7f256-6f8e-4f12-a911-0ee104b90d2d.png)
-
-* Book Contact page (Instagram)
-
-![06 3-Book Contact page (Instagram)](https://user-images.githubusercontent.com/72756158/180627028-a9c4f497-9b58-4f2b-b7ea-a35fdb0644ed.png)
-
-* Book WebView page (Home)
-
-![07 1-Book WebView page (Home)](https://user-images.githubusercontent.com/72756158/180627032-64fa1b15-bfcb-47fb-bb33-e5578d820607.png)
-
-* Book WebView page (Books)
-
-![07 2-Book WebView page (Books)](https://user-images.githubusercontent.com/72756158/180627045-4a10dd50-dbf7-449f-82f7-870dfe6adfba.png)
-
-* Book MapView page (GPS)
-
-![08 1-Book MapView page (GPS)](https://user-images.githubusercontent.com/72756158/180627053-4b1094e0-939c-499f-aa80-3140c447e685.png)
-
-* Book MapView page (Navigate to Prishtina)
-
-![08 2-Book MapView page (Navigate to Prishtina)](https://user-images.githubusercontent.com/72756158/180627055-0189e999-74a2-46ea-a2f8-d8ca3ed5e812.png)
-
-* Book MapView page (Navigate to Vushtrri)
-
-![08 3-Book MapView page (Navigate to Vushtrri)](https://user-images.githubusercontent.com/72756158/180627079-f42d5fee-fc0c-4078-8563-792bd684780a.png)
-
-* Book MapView page (Navigate to Ferizaj)
-
-![08 4-Book MapView page (Navigate to Ferizaj)](https://user-images.githubusercontent.com/72756158/180627084-d5af7e80-185c-443d-b274-2655c9cb7085.png)
-
-* Book ApiView page (Fetching data from API endpoint)
-
-![09 1-Book ApiView page (Fetching data from API endpoint)](https://user-images.githubusercontent.com/72756158/180627092-2d175913-83e7-4554-a117-00e7350c5a04.png)
-
-* Book ApiView page (Adding a new book)
-
-![09 2-Book ApiView page (Adding a new book)](https://user-images.githubusercontent.com/72756158/180627099-b47f4b7b-91d1-4ef2-9758-06f4d568a138.png)
-
-* Book ApiView page (New book has been added)
-
-![09 3-Book ApiView page (New book has been added)](https://user-images.githubusercontent.com/72756158/180627102-df0d7ee0-4ec0-48a7-9a4d-1ffcd27db944.png)
-
-* Book ApiView page (Updating the new book)
-
-![09 4-Book ApiView page (Updating the new book)](https://user-images.githubusercontent.com/72756158/180627105-e10c6e18-aebd-4520-98e5-7cf7e82fe93f.png)
-
-* Book ApiView page (New book has been updated)
-
-![09 5-Book ApiView page (New book has been updated)](https://user-images.githubusercontent.com/72756158/180627110-a4d12193-69b0-487d-81f8-d50e92818c12.png)
-
-* Book ApiView page (New book has been deleted)
-
-![09 6-Book ApiView page (New book has been deleted)](https://user-images.githubusercontent.com/72756158/180627115-ad4fdb22-31bf-408d-afc5-2a15ffda4e91.png)
-
-* Book Home page (Hi again)
-
-![10-Book Home page (Hi again)](https://user-images.githubusercontent.com/72756158/180627123-76798db6-a207-44fd-9ae9-d3bed715b529.png)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/01-Log%20In%20page.png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/02-Sign%20Up%20page.png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/03-Book%20Main%20page%20(Welcome).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/04-Book%20Details%20page.png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/05-Book%20Subscription%20page.png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/06.1-Book%20Contact%20page%20(Select%20One).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/06.2-Book%20Contact%20page%20(Facebook).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/06.3-Book%20Contact%20page%20(Select%20One).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/06.4-Book%20Contact%20page%20(Instagram).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/07.1-Book%20WebView%20page%20(Home).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/07.2-Book%20WebView%20page%20(Books).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/08.1-Book%20MapView%20page%20(GPS).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/08.2-Book%20MapView%20page%20(Navigate%20to%20Prishtina).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/08.3-Book%20MapView%20page%20(Navigate%20to%20Vushtrri).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/08.4-Book%20MapView%20page%20(Navigate%20to%20Ferizaj).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/09.1-Book%20ApiView%20page%20(Fetching%20data%20from%20API%20endpoint).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/09.2-Book%20ApiView%20page%20(Adding%20a%20new%20book).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/09.3-Book%20ApiView%20page%20(New%20book%20has%20been%20added).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/09.4-Book%20ApiView%20page%20(Updating%20the%20new%20book).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/09.5-Book%20ApiView%20page%20(New%20book%20has%20been%20updated).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/09.6-Book%20ApiView%20page%20(New%20book%20has%20been%20deleted).png">
+<img src="https://github.com/ndriqimlahu/book-app/blob/main/Preview/10-Book%20Home%20page%20(Hi%20again).png">
 
 
 <!-- COPYRIGHT -->
