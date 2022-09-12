@@ -31,7 +31,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#copyright">Copyright</a></li>
+    <li><a href="#license">License</a></li>
     <li><a href="#support">Support</a></li>
   </ol>
 </details>
@@ -183,10 +183,10 @@ There you can see some useful additional screenshots of how the project looks li
 <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/10-Book%20Home%20page%20(Hi%20again).png">
 
 
-<!-- COPYRIGHT -->
-## Copyright
+<!-- LICENSE -->
+## License
 
-See the `COPYRIGHT` file for more information.
+See the `LICENSE` file for more information.
 
 
 <!-- SUPPORT -->
