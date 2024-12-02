@@ -16,6 +16,22 @@ This mobile application was developed using the following tools, technologies, a
 - **ShimmerSwift**
 - **FakeRESTApi Books API** — [Reference link](https://fakerestapi.azurewebsites.net)
 
+## Features
+
+✅ **User Authentication:** Secure login and sign-up functionality, allowing users to easily create and manage their accounts.
+
+✅ **Book Recommendations:** Personalized book suggestions on the home page based on user preferences and reading history.
+
+✅ **Book Details:** Displays essential information about each book, along with an interactive 'Buy Now' button for easy purchasing.
+
+✅ **Book Library Management:** Users can view their library, add new book suggestions, read, update, or delete books from their collection.
+
+✅ **Book Web Explore:** A feature to explore new book releases and search for books, making it easy to find titles by genre, author, or keyword.
+
+✅ **Book Map Location:** Tracks book-related locations with GPS, allowing users to navigate to specific city locations for relevant books.
+
+✅ **Book Subscription & Contact:** Allows users to subscribe to books for updates on new releases and offers contact options, including social media links.
+
 ## Prerequisites
 
 Before starting, ensure the following are installed on your system:
@@ -136,3 +152,7 @@ Below you can see some additional useful screenshots of what the mobile applicat
 
 - Home page — Hi again to the Book app
 <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/10-Book%20Home%20page%20(Hi%20again).png" align="top" width="32%" height="auto">
+
+## Support
+
+If you find this project useful, please consider giving it a star!
