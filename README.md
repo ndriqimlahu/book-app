@@ -1,199 +1,138 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/BookApp.png" alt="Logo" width="250" height="250">
-  <h3 align="center">Book App</h3>
-  <p align="center">
-    Ndriçim Lahu
-    <br>
-    <br>
-    <a href="https://github.com/ndriqimlahu/book-app/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ndriqimlahu/book-app/issues">Request Feature</a>
-  </p>
-</p>
+# Book App
 
+**Book App** is an iOS mobile application designed to make book exploration and organization seamless and enjoyable. It offers a tailored experience, enabling users to discover new books, manage their library, and explore features that enrich their reading journey. From uncovering the latest releases to tracking favorite titles, the app serves as a comprehensive hub for book enthusiasts. Its sleek design and intuitive interface make it accessible to all readers, whether they are casual users or devoted book lovers.
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#support">Support</a></li>
-  </ol>
-</details>
+This project is developed with a focus on precision and modern iOS design principles. It provides a robust, responsive, and engaging platform suited to a wide range of readers. The app incorporates versatile layouts, dynamic features, and a fluid navigation experience to maximize usability. With its seamless design, it ensures that every interaction feels intuitive and smooth. By upholding high standards of development, it reflects a commitment to quality, reliability, and long-term user satisfaction.
 
+## Built With
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+This mobile application was developed using the following tools, technologies, and resources:
+- **Xcode**
+- **Swift**
+- **Alamofire**
+- **SwiftyJSON**
+- **Core Data**
+- **RealmSwift**
+- **ShimmerSwift**
+- **FakeRESTApi Books API** — [Reference link](https://fakerestapi.azurewebsites.net)
 
-The project called `Book App` is an mobile application which is developed for the iOS platform. This application aims to have an increase in the market in terms of sales of products or books. In this mobile application you can navigate into different pages which are “Login”, “SignUp”, “Books”, “Book Details”, “Contact”, “Subscription”, “MapView”, “WebView” and “Book API”.
+## Prerequisites
 
-This project started from scratch where I worked and completed, also I made some improvements in the front-end and back-end side of Mobile Application Development, such as importing some popular frameworks and libraries to the Podfile, developing and designing the layouts, adding the required assets for application, creating of the controllers, creating of the models, adding the service, creating of the views, management of the storyboard, using of the different component views, using the user location to find in the map, adding the specific book website to application, getting of Books data by calling an API, CRUD functionality with data of API and many more things.
+Before starting, ensure the following are installed on your system:
+- **macOS Catalina or later**
+  - Download the [macOS Catalina](https://apps.apple.com/us/app/macos-catalina/id1466841314) or a newer version.
+  - Follow the [installation guide](https://support.apple.com/en-us/102662) to install and set it up on your system.
+  - Use a [bootable installer](https://support.apple.com/en-us/101578) for a clean installation if required.
+- **Xcode and Command Line Tools**
+  - Download the [Xcode](https://developer.apple.com/xcode/) and [Command Line Tools](https://developer.apple.com/download/all/).
+  - Follow the [installation guide](https://developer.apple.com/documentation/xcode/) to install and set it up on your system.
+  - Ensure the latest Xcode version compatible with your macOS is installed for optimal performance.
+- **Ruby Version Manager (RVM)**
+  - Install the [Ruby Version Manager (RVM)](https://rvm.io/rvm/install) by running the following command in your terminal:
+    ```
+    curl -L https://get.rvm.io | bash -s stable
+    ```
+  - Install the latest version of [Ruby](https://rvm.io/rubies/installing) using RVM by running the following command in your terminal:
+    ```
+    rvm install ruby --latest
+    ```
+  - Verify your Ruby installation by running the following command in your terminal:
+    ```
+    ruby -v
+    ```
+  - If installation fails, refer to the RVM troubleshooting guide.
+- **CocoaPods (Dependency Manager)**
+  - Install the [CocoaPods](https://guides.cocoapods.org/using/getting-started.html) by running the following command in your terminal:
+    ```
+    sudo gem install cocoapods
+    ```
+  - Configure the CocoaPods by running the following command in your terminal:
+    ```
+    pod setup
+    ```
+  - Verify your CocoaPods installation by running the following command in your terminal:
+    ```
+    pod --version
+    ```
+  - If installation fails, refer to the CocoaPods troubleshooting guide.
 
+## Installation
 
-### Built With
-
-This mobile application is based on technologies like below:
-
-* Xcode
-* Swift
-* Alamofire
-* SwiftyJSON
-* Core Data
-* RealmSwift
-* ShimmerSwift
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-By getting started with the project, first you need to take a look at the required `Prerequisites` and after that the `Installation` steps.
-
-
-### Prerequisites
-
-In order to open this mobile application is required to have an Operating System (macOS Catalina 10.15.7), an Tool (Command Line Tools for Xcode 12.4) and an IDE (Xcode 12.4).
-
-
-### Installation
-
-1. Download the code or Clone the repo:
-   ```terminal
+1. Clone or download the repository to your local machine:
+   ```
    git clone https://github.com/ndriqimlahu/book-app.git
    ```
-2. Open the Terminal and type the following command to check the version of Ruby installed on your macOS:
-   ```terminal
-   ruby -v
+2. Change the working directory to the project folder. You can do this by dragging and dropping the project folder into your terminal:
    ```
-3. In the Terminal type the following command to install the Ruby Version Manager (rvm):
-   ```terminal
-   curl -L https://get.rvm.io | bash -s stable
-   ```
-4. Quit and open again the Terminal then type the following command to install the latest version of Ruby:
-   ```terminal
-   rvm install ruby --latest
-   ```
-5. Open the Terminal and type the following command to check the version of CocoaPods (dependency manager) installed on your macOS:
-   ```terminal
-   pod --version
-   ```
-6. In the Terminal type the following command to install the latest version of CocoaPods:
-   ```terminal
-   sudo gem install cocoapods
-   ```
-7. Now in the Terminal type the following command to setup the CocoaPods on your macOS:
-   ```terminal
-   pod setup
-   ```
-8. In the Terminal type the following command to change the base directory to project directory by drag and drop the project folder to the Terminal:
-   ```terminal
    cd /Users/user/Desktop/book-app
    ```
-9. Now in the Terminal type the following command to install all the necessary Frameworks and Libraries which are used in this Application:
-   ```terminal
+3. Install the dependencies used in this application by running the following command in your terminal:
+   ```
    pod install
    ```
-10. Now open the repo folder and choose the Workspace `Book App.xcworkspace` file to open with Xcode.
-11. After that you can run and explore this mobile application with simulator by choosing the `iPhone 11 (13.5)` device.
+4. Open the repository folder in **Xcode**.
+5. Locate the `Book App.xcworkspace` file within the project directory and open it to launch the application.
+6. Run the application on a simulator or physical device. For testing, you can use the `iPhone 11 (13.5)` simulator.
 
+## Screenshots
 
-<!-- USAGE -->
-## Usage
+Below you can see some additional useful screenshots of what the mobile application looks like and how it can be used:
 
-There you can see some useful additional screenshots of how the project looks like and how can be used.
+- Login page | Sign up page | Home page — Welcome to the Book app
+<div>
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/01-Log%20In%20page%20(Account).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/02-Sign%20Up%20page%20(Account).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/03-Book%20Main%20page%20(Welcome).png" align="top" width="32%" height="auto">
+  <hr>
+</div>
 
-* Log In page (Account)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/01-Log%20In%20page%20(Account).png">
+- Book Details page — Buy now | Book Subscription page — Fill in the fields for mailing subscription | Book Contact page — Select one of the contact types
+<div>
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/04-Book%20Details%20page%20(Buy%20Now).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/05-Book%20Subscription%20page%20(Subscribe).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/06.1-Book%20Contact%20page%20(Select%20One).png" align="top" width="32%" height="auto">
+  <hr>
+</div>
 
-* Sign Up page (Account)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/02-Sign%20Up%20page%20(Account).png">
+- Book Contact page — Facebook has been selected | Book Contact page — Select one of the contact types | Book Contact page — Instagram has been selected
+<div>
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/06.2-Book%20Contact%20page%20(Facebook).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/06.3-Book%20Contact%20page%20(Select%20One).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/06.4-Book%20Contact%20page%20(Instagram).png" align="top" width="32%" height="auto">
+  <hr>
+</div>
 
-* Book Main page (Welcome)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/03-Book%20Main%20page%20(Welcome).png">
+- Book Web page — Find your favorite book | Book Web page — New book releases | Book Map page — Track location with GPS
+<div>
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/07.1-Book%20WebView%20page%20(Home).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/07.2-Book%20WebView%20page%20(Books).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/08.1-Book%20MapView%20page%20(GPS).png" align="top" width="32%" height="auto">
+  <hr>
+</div>
 
-* Book Details page (Buy Now)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/04-Book%20Details%20page%20(Buy%20Now).png">
+- Book Map page — Navigate to Prishtina city | Book Map page — Navigate to Vushtrri city | Book Map page — Navigate to Ferizaj city
+<div>
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/08.2-Book%20MapView%20page%20(Navigate%20to%20Prishtina).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/08.3-Book%20MapView%20page%20(Navigate%20to%20Vushtrri).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/08.4-Book%20MapView%20page%20(Navigate%20to%20Ferizaj).png" align="top" width="32%" height="auto">
+  <hr>
+</div>
 
-* Book Subscription page (Subscribe)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/05-Book%20Subscription%20page%20(Subscribe).png">
+- Book Library page — Book List | Book Library page — Adding a new book | Book Library page — New book has been added
+<div>
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.1-Book%20ApiView%20page%20(Fetching%20data%20from%20API%20endpoint).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.2-Book%20ApiView%20page%20(Adding%20a%20new%20book).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.3-Book%20ApiView%20page%20(New%20book%20has%20been%20added).png" align="top" width="32%" height="auto">
+  <hr>
+</div>
 
-* Book Contact page (Select One)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/06.1-Book%20Contact%20page%20(Select%20One).png">
+- Book Library page — Updating the new book | Book Library page — New book has been updated | Book Library page — New book has been deleted
+<div>
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.4-Book%20ApiView%20page%20(Updating%20the%20new%20book).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.5-Book%20ApiView%20page%20(New%20book%20has%20been%20updated).png" align="top" width="32%" height="auto">
+  <img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.6-Book%20ApiView%20page%20(New%20book%20has%20been%20deleted).png" align="top" width="32%" height="auto">
+  <hr>
+</div>
 
-* Book Contact page (Facebook)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/06.2-Book%20Contact%20page%20(Facebook).png">
-
-* Book Contact page (Select One)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/06.3-Book%20Contact%20page%20(Select%20One).png">
-
-* Book Contact page (Instagram)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/06.4-Book%20Contact%20page%20(Instagram).png">
-
-* Book Web page (Home)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/07.1-Book%20WebView%20page%20(Home).png">
-
-* Book Web page (Books)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/07.2-Book%20WebView%20page%20(Books).png">
-
-* Book Map page (GPS)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/08.1-Book%20MapView%20page%20(GPS).png">
-
-* Book Map page (Navigate to Prishtina)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/08.2-Book%20MapView%20page%20(Navigate%20to%20Prishtina).png">
-
-* Book Map page (Navigate to Vushtrri)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/08.3-Book%20MapView%20page%20(Navigate%20to%20Vushtrri).png">
-
-* Book Map page (Navigate to Ferizaj)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/08.4-Book%20MapView%20page%20(Navigate%20to%20Ferizaj).png">
-
-* Book Api page (Fetching data from API endpoint)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.1-Book%20ApiView%20page%20(Fetching%20data%20from%20API%20endpoint).png">
-
-* Book Api page (Adding a new book)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.2-Book%20ApiView%20page%20(Adding%20a%20new%20book).png">
-
-* Book Api page (New book has been added)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.3-Book%20ApiView%20page%20(New%20book%20has%20been%20added).png">
-
-* Book Api page (Updating the new book)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.4-Book%20ApiView%20page%20(Updating%20the%20new%20book).png">
-
-* Book Api page (New book has been updated)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.5-Book%20ApiView%20page%20(New%20book%20has%20been%20updated).png">
-
-* Book Api page (New book has been deleted)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/09.6-Book%20ApiView%20page%20(New%20book%20has%20been%20deleted).png">
-
-* Book Home page (Hi again)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/10-Book%20Home%20page%20(Hi%20again).png">
-
-
-<!-- LICENSE -->
-## License
-
-See the `LICENSE` file for more information.
-
-
-<!-- SUPPORT -->
-## Support
-
-Issues and feature requests are welcome!
-
-Give a ⭐️ if you liked this project!
-
-Support the author on <a href="https://www.buymeacoffee.com/ndriqimlahu">Buy Me a Coffee</a>
+- Home page — Hi again to the Book app
+<img src="https://raw.githubusercontent.com/ndriqimlahu/book-app/main/Preview/10-Book%20Home%20page%20(Hi%20again).png" align="top" width="32%" height="auto">
